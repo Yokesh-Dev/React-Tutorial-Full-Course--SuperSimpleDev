@@ -1,0 +1,45 @@
+What We'll Learn
+
+Set Up React with JavaScript
+JSX, Components, Props
+State, Hooks
+
+Proper React Setup
+Routing
+Automated Testing
+React with a Backend
+
+Deploy React with AWS
+React with TypeScript
+React with Ai
+
+-------------------------------
+Over 125 Excercise
+2 Projects
+--------------------
+prerequisites
+
+You'll also need to know:
+
+1. Basics of JavaScript
+Features:
+- variables
+- functions
+- strings
+- if-statements
+- objects
+- arrays
+- loops
+
+2. Basics of HTML
+- Html elements , tags
+attributes
+class attributes
+
+----------------------
+What is React?
+
+React = external library that
+1. React is an external library
+2. React helps us create websites easier
+helps us create websites easier

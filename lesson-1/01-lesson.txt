@@ -1,0 +1,107 @@
+Lesson-1
+/// Ways to write  JavaScript 
+
+Inline JS – JS inside HTML tags
+Example: <button onclick="alert('Hi')">
+
+Internal JS – JS inside <script> in same HTML
+Used for small/testing projects
+
+External JS file – JS in .js file linked to HTML
+Best practice for large projects
+
+External JS Library – Pre-written JS from CDN  (e.g., jQuery, React)
+Saves time, adds features.
+React comes from CDN or npm, and is added to the project as an external JavaScript library.
+
+
+///Why React uses two imports: react and react-dom
+
+react Core React library
+Used to create components, use hooks, and manage state used for both  React Native and  React, Mobile App and 
+and website.
+Example: useState, useEffect
+
+react-dom
+Connects React to the browser DOM only for Websites 
+Used to render components on a web page
+Example: ReactDOM.createRoot()
+
+
+
+///Why Babel is used
+Babel is a JavaScript compiler.
+ Its main job is to convert modern JavaScript or JSX into older JS that all browsers can understand.
+ 
+JSX to JavaScript
+React uses JSX (<div>Hello</div>), browsers don’t understand it directly.
+Babel converts JSX → React.createElement() calls.
+
+Modern JS to old JS
+Converts ES6+ features (like let, const, arrow functions) into ES5 for compatibility with older browsers.
+
+//Display Multiple Elements in React
+In React, you cannot return multiple elements directly from a component unless they are wrapped.
+Wrap in parent <div>
+Use React Fragment: <React.Fragment> or <> </>
+
+//Advantages of Using JSX - JSX = Readable + Safe + Dynamic + Easy to debug
+Easy to read & write – Looks like HTML, easier than plain JS.
+Faster development – Combines HTML and JS in one place.
+Supports dynamic content – Can embed JS expressions with {}.
+Better debugging – Errors point to specific components/lines.
+-------------------------------------------------------------------
+In this lesson:
+
+1. React = external library that helps us create websites easier
+2. Load the React external library
+3. Set up React and use .render()
+4. Reviewed basics of HTML and JavaScript
+5. JSX = enhanced version of JavaScript
+6. Created elements directly with JSX
+7. Insert values into JSX elements
+-------------------------------------------------------------------
+<React.StrictMode> (Short Note)
+
+Development-only tool to catch bugs, unsafe code, and deprecated APIs.
+Wrap your app:
+<React.StrictMode>
+  <App />
+</React.StrictMode>
+
+✅ Does not affect UI or production.
+
+What is <React.StrictMode>?
+
+It’s a tool for development only (does not affect production).
+
+Helps find potential problems in your React app.
+
+Why it’s used
+
+Detects unsafe lifecycles – Shows warnings for old/unsafe React methods.
+
+Identifies unexpected side effects – Helps catch bugs in state or effects.
+
+Warns about deprecated APIs – Prepares your app for future React versions.
+
+Double-invokes certain functions (like useEffect) in development to help spot bugs.
+-----------------------------------------------------------
+Error Boundary
+React component that catches JavaScript errors in its child components.
+
+Prevents the whole app from crashing when an error occurs.
+
+Shows a fallback UI instead of breaking the app.
+
+Key points:
+
+Only catches errors in render, lifecycle methods, and constructors of child components.
+
+Cannot catch errors in event handlers.
+
+Implemented using class components with:
+
+static getDerivedStateFromError(error)
+
+componentDidCatch(error, info)
