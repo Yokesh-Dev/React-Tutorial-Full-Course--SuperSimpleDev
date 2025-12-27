@@ -1,0 +1,60 @@
+lesson-3 [state aand Event Handlers
+
+Step 1 - uses JSX components (<ChatMessage />) props to directly render UI elements with props.
+Step 2 - uses a JavaScript object/array to store/Save chat data (logic/state), not UI and
+generate html elements using .map()
+
+Event Handlers = run a function when we interact with the website.
+onClick = run a function when clicked
+onChange = runs a function when we change the text inside an <input>
+How to Control input while its as Uncotrolled component - 
+Remember this forever
+No value → uncontrolled
+With value → controlled
+
+
+Naming conventions - 
+CamelCase: `let userName = "Alex";` 
+| Snake_case: `let user_name = "Alex";` 
+| Kebab-case: `let user-name = "Alex"; // used in HTML/CSS, not valid JS variable` 
+| PascalCase: `class UserName {}`
+ 
+
+Learn to Code -
+Write content code: Writing each element or line manually without loops.
+Generate code: Creating elements dynamically using map() or loops.
+Explanation: Manual code is simple for small data, generated code is efficient for large or dynamic data.
+
+randomUUID:
+What: randomUUID() generates a unique identifier (UUID) automatically.
+Why: It is used to uniquely identify items like users, messages, or list keys.
+Example: const id = crypto.randomUUID(); → gives a unique ID every time.
+
+Array destructuring:
+What: Array destructuring lets you extract values from an array into variables.
+Why: It makes code cleaner and easier to read.
+Example: const [a, b] = [10, 20];
+
+Best Practice :
+Do not use the DOM manually [react manages it]
+Lifting State Up - means moving shared state to a common parent component.
+Same names for Component , props , value {Naming Conventions}
+
+Value prop in React:
+It’s a prop (usually value) used to control a form input’s data from React state,
+ making the component a controlled component.
+--------------------------------------------------------------
+In this lesson:
+
+1. Save the data (using arrays and objects)
+2. Generate the HTML (using .map () and key prop)
+3. Make it interactive, using onclick and onChange
+
+4. State = data that changes over time,
+and is connected to the HTML
+
+5. Updater function = update the state and update the HTML
+6. Array Destructuring
+7. Lifting the State Up = share state between components
+8. Made <Chat Input> interactive
+9. Got responses from the Chatbot

@@ -1,0 +1,21 @@
+Lesson -4
+
+To Use Flexbox
+1. Create container around elements
+2. Add display: flex; to container
+3. Use flex box features -
+justify content =controls how are displayed horizontally
+align items = controls how are displayed vertically 
+
+Conditional Stlying using Ternary 
+
+In this lesson:
+
+1. CSS with React
+2. Styled the Chatbot Project
+3. Flexbox = create a flexible layout
+4. Ternary Operator (? :) = if-else statement directly in the JSX
+5. hooks = insert React features into a component
+6. useEffect = run code after component is created or updated
+7. useRef = save an HTML element from the component
+8. Created the auto-scroll feature
