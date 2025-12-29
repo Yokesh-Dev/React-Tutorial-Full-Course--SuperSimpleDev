@@ -1,0 +1,27 @@
+Lesson-9
+
+Two popular automated Testing -
+
+Jest
+vitest
+
+Unit Test = test 1 unit (1 piece) of code
+Intergrate test = test multiple units of code working together
+
+npm install --save-dev vitest@3.1.2
+to test money.js create a new file money.test.js
+product.test.jsx
+
+npm vitest = runs the test code 
+
+
+In this lesson:
+
+1. Automated tests with Vitest
+2. Unit test = test 1 piece of the code
+3. it(), expect(), describe()
+4. Integration tests = test multiple pieces of code
+5. Test a component (using render and screen)
+6. Mock = fake version of a function / package
+7. Mock the implementation = make a mock do whatever
+we want

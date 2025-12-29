@@ -1,0 +1,42 @@
+lesson-10
+A-------
+React Compiler is a tool that automatically optimizes React code to make apps faster.
+It works by analyzing your components and automatically handling memoization,
+ so React avoids unnecessary re-renders without developers writing useMemo or useCallback.
+In short, you write normal React code, and the compiler improves performance behind the scenes.
+
+B------
+TypeScript is a programming language that adds types to {{our }variables in JavaScript to help catch errors early.
+It works by checking your code for type mistakes during development and then compiling it 
+into normal JavaScript that browsers can run.
+
+Difference
+const greet ="hello" // JS
+const greet:string ="hello" //ts =>type checking Feature which is not avilable in JS
+
+3 Best Uses of TypeScript:
+Helps catch errors early by checking types before code runs.
+Makes large projects easier to understand and maintain.
+Improves code quality with better autocomplete and documentation.
+
+
+Select Variant as Typescript while installing Ts
+Convert a Js code base to Ts .
+
+C-----------
+Co pilot -extension in vs
+
+Autocomplete =read understand the code and suggest us as same patterns written.
+Give Ai Instruction = Writes code faster but you need to understand the code,
+check knowlege to modify.
+
+---------------------
+In this lesson:
+
+1. Updates in the new version of React
+2. React Compiler = automatically optimize our React code
+3. Set up TypeScript React project using create-vite
+4. Intro to TypeScript (type checking, type inference)
+5. Converted ecommerce project to TypeScript
+6. Intro to TypeScript with React
+7. Intro to Al with React

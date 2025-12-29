@@ -1,0 +1,24 @@
+Data mutation means changing existing data directly after it has been created.
+It can cause unexpected behavior if other parts of the program rely on the original data.
+
+**GET, POST, PUT, DELETE** are HTTP methods used in web development:
+
+* **GET**: Retrieves data from a server.
+* **POST**: Sends new data to the server to create something.
+* **PUT**: Updates existing data on the server.
+* **DELETE**: Removes data from the server.
+
+
+Economics is the study of how people use limited resources to satisfy their needs and wants.
+It focuses on production, consumption, and distribution of goods and services.
+
+
+In this lesson:
+
+1. Data Mutation = update data in the backend
+2. Types of requests: GET, POST, PUT, DELETE
+3. POST request: add products to the cart, create an order
+4. PUT request: update the cart
+5. DELETE request: delete a product from the cart
+6. Dependency Array to update the payment summary
+7. useNavigate = navigate to another page using our code

@@ -1,0 +1,26 @@
+Lesson-5
+pwd =when executed in the terminal, displays the directory	
+The ls The cd command is a fundamental shell command used to change the current working directory 
+The cd command is a fundamental shell command used to change the current working directory i
+
+
+node js = lets us run js outside the browser
+npm = node package manager , conatins millions of packages lets us to use it
+public folder = contains files that should be available to the public
+(we can access these using a URL) https://website.com/vite.svg
+
+eslint = Highlights problems in javascript code.[eslint vscode extension]
+vite = Tool used to set up project , helps us create a server.
+
+<StrictMode> = gives us some additional checks and warnings when developing our app
+
+In this lesson:
+
+1. Proper React Setup (using command line, npm, and Vite)
+2. Command Line = give commands to our computer
+3. NPM = download and use external libraries (or packages)
+4. create-vite Package = helps us create a Proper React Setup
+5. Moved our Chatbot Project into the new React Setup
+6. ESLint = highlights problems in our JavaScript code
+7. JavaScript Modules = separate our code into different files
+8. Separated each component into its own . jsx and .css files

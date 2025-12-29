@@ -1,0 +1,38 @@
+Deploying 
+
+EC2 = elastic compte cloud
+elastic beans = does all software setup
+
+Steps to create => {
+Environment Tier =web server
+Application Name = Name
+platform Tech = Node js
+application Code =sample /upload code 
+presets = single /High availablity
+
+
+Create a Role
+
+npm run zip = zips the code base used to load in Aws
+npm run build = converts all our jsx code into js readble by browser to load into AWS. Miified compress code.
+
+set Up Database
+Set Up Load Balancer
+Set up Domain Name
+
+to buy domain = https://www.namecheap.com/
+
+Route53 = manage domain names in Aws.
+Certificate Manager = provides ssl for encrytion ensure https.
+
+
+In this lesson:
+
+1. AWS = collection of services that put stuff on the Internet
+2. EC2 = rent computer from AWS (laaS)
+3. Elastic Beanstalk = sets up all the software (PaaS)
+4. Put our backend on the Internet
+5. Build and optimize the frontend, put it on the Internet
+6. How to deploy React without a backend
+7. Added a load balancer and database
+8. Set up domain name, SSL certificate, and HTTPS
